@@ -1,0 +1,415 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "kronos/mods/custom_perks/images/213.png",
+      "url": "baselines/kronos/mods/custom_perks/images/213.png",
+      "sha256": "b13531360a0e54fa0b6c5d2e8d487382c2b2ef6835365eeade5a667e39de34c1"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_eternal_frame_1.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_eternal_frame_1.png",
+      "sha256": "882a13276a1646f458282583fc21d7ebb143878aa834bd16b3fa207b03f72426"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_eternal_frame_2.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_eternal_frame_2.png",
+      "sha256": "f51af5d086c4d88bd529f3e84362fd3b4f8df797449991b8d2355258292f4ba0"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_eternal_frame_3.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_eternal_frame_3.png",
+      "sha256": "3c98221b6ad8ef9bf042eae4ff941ca803b52d2431dbfce920b8f5aeb6d0d156"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_eternal_frame_4.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_eternal_frame_4.png",
+      "sha256": "475adce43565625f81d76f774c613a9b0efdbbb69cc310fb2221783b000c3a9d"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_eternal_frame_5.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_eternal_frame_5.png",
+      "sha256": "d1fe2443ba47ab13c57fdfd24e58de9e8adf69ca449323af0d3b899c212865af"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_pack_d23576c763f353887ea8.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_pack_d23576c763f353887ea8.png",
+      "sha256": "c83790345763bbf5ed59be4949fd0c090e58c174e292d06f3c6fbcae116f74c3"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_pack_f883fdc65b565e133819.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_pack_f883fdc65b565e133819.png",
+      "sha256": "c3b762ef909c47a5783c55515a17c56bd98fefa01cf2bf192780ce6589a73122"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_perk_blaze_flame.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_perk_blaze_flame.png",
+      "sha256": "9d4b7bb58878fd5a48ffc6e9cd4f3e782afc724135b480d411b58eae61a87a9e"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_perk_charge_shield.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_perk_charge_shield.png",
+      "sha256": "7fba8d58fab7988e0d071e6f61d52a403da2c0e1290bd05e0027d2640856ad25"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_slot_bar.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_slot_bar.png",
+      "sha256": "902f95f5e6953f836093a7b57a70668e8a9a128c0bbcbcde71431f12b4d17a20"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_slot_bell.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_slot_bell.png",
+      "sha256": "2ad8721438658d99537bb572701280c3b226cca6dfbb184a78dcedb2fecbb24d"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_slot_cherry.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_slot_cherry.png",
+      "sha256": "709b5a40542d9deded2b237e0871c9c9df6883b7794535ba874e63db4f97c83c"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_slot_clover.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_slot_clover.png",
+      "sha256": "901953fa4bf8033cc0e0278d637e99d771ee3e45f26121f714e0fa6cf8fdd9b7"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_slot_mega.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_slot_mega.png",
+      "sha256": "2c1abc3560818ce62ffeb6853271d7d7dc3c36d8077e9c1416c4a12037d57294"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_slot_nega.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_slot_nega.png",
+      "sha256": "1c3697ddb2c9c6bfe2398ba7464ed71225eb6d8a0b5b62592ae22e29ffde3c15"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_slot_seven.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_slot_seven.png",
+      "sha256": "9b0cdb2073caea9a57304c5b21abe82137fefc9a296e8f90045e1edbe09bbdbe"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/gcp_slot_skull.png",
+      "url": "baselines/kronos/mods/custom_perks/images/gcp_slot_skull.png",
+      "sha256": "1fa96ceb5d21689d4f1cfed96733809c5a2dfa12db78dbdec248dd6fab0ba7bb"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/mark_marker.png",
+      "url": "baselines/kronos/mods/custom_perks/images/mark_marker.png",
+      "sha256": "970f6cd39955b3356a58679ba3be646d919609575fb6fc2faf15b6e03593730c"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icons_perks_zm_electric_cherry.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icons_perks_zm_electric_cherry.png",
+      "sha256": "79aefcec96155f40037e09e1af16937b3398fa6fdf51e3170f536b2e9ba74c7d"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icons_perks_zm_electric_cherry_empty.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icons_perks_zm_electric_cherry_empty.png",
+      "sha256": "17e0b2702681091eaaf343b6778d0d9c13710b69d45df6b0aa9eccd78d5bad52"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icons_perks_zm_electric_cherry_full.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icons_perks_zm_electric_cherry_full.png",
+      "sha256": "0652645a42dd52566f2bfca1e8baf70b504a2002c70e91a7d0018f96307072c4"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icons_perks_zm_electric_cherry_half.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icons_perks_zm_electric_cherry_half.png",
+      "sha256": "6be3b61fe45dcdf816148a95cb98fe3fbcb96de2b7cabef9ecfbe4e6b7ac1e82"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icons_perks_zm_hunters_hooch.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icons_perks_zm_hunters_hooch.png",
+      "sha256": "ef3b6acfd840ab21fa41e436ce0e42f407e0ac5d8b104531ab832b9a8080c6ee"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icons_perks_zm_roo_brew.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icons_perks_zm_roo_brew.png",
+      "sha256": "19aaf52935452c5b96df7e16e952ba3707614fe35094299478465480ae9e1645"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_blood_wolf_bite.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_blood_wolf_bite.png",
+      "sha256": "ef81f9b5f5c0b38ddef1a1fac5e7378cce1b527b0ece97f66d0d6ef94abf5c9a"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_dam_a_nade.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_dam_a_nade.png",
+      "sha256": "af46a43efff6a604709768bd27b8d55a07bd473ab19d5cfceed9e69f26558467"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_ice_cold_cola.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_ice_cold_cola.png",
+      "sha256": "6e75e63d3e25b86e18d9b1688cd0b3778a608651300c1033ddff8daf227b70eb"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_killstreak_kool_aid.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_killstreak_kool_aid.png",
+      "sha256": "1d9dfb21b587e4f2207098e16aae762360ee12dcba0f26ec62ca82eb0199c6b3"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_magnet_margarita.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_magnet_margarita.png",
+      "sha256": "20cad082f6bed7a383e711597e7796ac9523f46726fbe463e3a7c16f714ae212"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_nuka_cola.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_nuka_cola.png",
+      "sha256": "bfa838c62af7be311ae2714978113ea48e61225e2e70a157e67e0a299de4b0f0"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_pack_a_box.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_pack_a_box.png",
+      "sha256": "95f8fe18130ea8f3827298ad4e560bfae3188c9c645b05cc3705bd430869f71e"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_placeholder.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_placeholder.png",
+      "sha256": "089853db101e094e4a5b913b9b90e3a76051f2f03bc5e8a775fb58f8e5edbfec"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_samurais_sake.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_samurais_sake.png",
+      "sha256": "1b25d3b6c1fa7bd6a230e0bfafd5331da317c73bdf897b3aebf510e7c35f676f"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_whos_who.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_whos_who.png",
+      "sha256": "832aec2e3b570f0f6194cebcea5baf52503402d21424f2e5ee2b3a7e27232a2b"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_widows_wine_2.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_widows_wine_2.png",
+      "sha256": "1e6d5f7867c89f0cfed3c4b621422397dea15753495a83f5b2c251242528adb3"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_widows_wine_cooldown.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_widows_wine_cooldown.png",
+      "sha256": "c2e0a89bf55f826e81f9a01001a89b085493cd2dbc7c8eb38a4a68a25d586d05"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_zm_axe_shot.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_zm_axe_shot.png",
+      "sha256": "0aee36903e44446d2c6ce760afc1048bd58dec5205b9447d862e30d22fbfa73c"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_zm_banana_colada.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_zm_banana_colada.png",
+      "sha256": "9a13f6e8b31a69635ba1b68b9809eca6659b37bebe2822aa19cbf9fa382f337d"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_zm_bandolier.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_zm_bandolier.png",
+      "sha256": "bb14e327a002d2568ee927f2999153f23a793c39ccab8d91196a53ccb63765b7"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_zm_blaze_phase.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_zm_blaze_phase.png",
+      "sha256": "aa020aa136cb255eb7c00504a8dead9cbc105cc9abf0ba5375912a9a600e366c"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_zm_custom.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_zm_custom.png",
+      "sha256": "2adc54ff8d11463851a3fe9f124f47f3614589b9a267be49a67527e33de8fed9"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_zm_Gautys_Gold.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_zm_Gautys_Gold.png",
+      "sha256": "6ba508e8371c9c2d029ce2d4b16daad83429fc5246522db07ffe8750a6a7358c"
+    },
+    {
+      "path": "kronos/mods/custom_perks/images/ui_icon_perks_zm_tortoise.png",
+      "url": "baselines/kronos/mods/custom_perks/images/ui_icon_perks_zm_tortoise.png",
+      "sha256": "b2e397811b44e509677d979a6f2e3c6e1f22986251fa9eb2e8b396c2aab1a2a8"
+    },
+    {
+      "path": "kronos/mods/custom_perks/lua/bo7_blood_wolf_luna_post.lua",
+      "url": "baselines/kronos/mods/custom_perks/lua/bo7_blood_wolf_luna_post.lua",
+      "sha256": "8e50195ddca00d45555b0ab2889b79607c78771d2530aa9794e6f8b9c4673ad7"
+    },
+    {
+      "path": "kronos/mods/custom_perks/lua/bo7_custom_perks_persist_post.lua",
+      "url": "baselines/kronos/mods/custom_perks/lua/bo7_custom_perks_persist_post.lua",
+      "sha256": "3d7759019db2808e5a774548f8da79327743247a1c732734e9e08266dc13c193"
+    },
+    {
+      "path": "kronos/mods/custom_perks/lua/bo7_custom_perks_post.lua",
+      "url": "baselines/kronos/mods/custom_perks/lua/bo7_custom_perks_post.lua",
+      "sha256": "d50581ff953f1f8093dfe229c44ddb2637806c03dc9656ae4274e01b428b43f9"
+    },
+    {
+      "path": "kronos/mods/custom_perks/lua/bo7_custom_perk_pack_assets_post.lua",
+      "url": "baselines/kronos/mods/custom_perks/lua/bo7_custom_perk_pack_assets_post.lua",
+      "sha256": "a7df73f6b94a875f8b22f998f674af2601bfd8130d50764dff90ba3e8782a117"
+    },
+    {
+      "path": "kronos/mods/custom_perks/lua/bo7_custom_perk_toggles_post.lua",
+      "url": "baselines/kronos/mods/custom_perks/lua/bo7_custom_perk_toggles_post.lua",
+      "sha256": "2535499bb2afac163728250002e3be2343ed7086a22856ee911a8bd1de4e5022"
+    },
+    {
+      "path": "kronos/mods/custom_perks/lua/bo7_eternal_frame_packs_post.lua",
+      "url": "baselines/kronos/mods/custom_perks/lua/bo7_eternal_frame_packs_post.lua",
+      "sha256": "e603301693c6660f032d51cd19710878e64e55756584148bdad4d954a6765276"
+    },
+    {
+      "path": "kronos/mods/custom_perks/lua/bo7_gold_machine_hint_post.lua",
+      "url": "baselines/kronos/mods/custom_perks/lua/bo7_gold_machine_hint_post.lua",
+      "sha256": "01dfbb191dff12523606946f24fd49b7353d07cb6cfafea2c36de00fdad491e9"
+    },
+    {
+      "path": "kronos/mods/custom_perks/lua/bo7_hunters_marker_post.lua",
+      "url": "baselines/kronos/mods/custom_perks/lua/bo7_hunters_marker_post.lua",
+      "sha256": "a146d63f46cbfe1d032f696ddafffd6a958ba17bae20ceab36701a5a2d8f4072"
+    },
+    {
+      "path": "kronos/mods/custom_perks/lua/bo7_jug_augment_text_post.lua",
+      "url": "baselines/kronos/mods/custom_perks/lua/bo7_jug_augment_text_post.lua",
+      "sha256": "dbdbc736e1eb856c4ff925fb518888ae807d2d8394ece815c60f059aea6bdbfc"
+    },
+    {
+      "path": "kronos/mods/custom_perks/lua/bo7_slot_machine_post.lua",
+      "url": "baselines/kronos/mods/custom_perks/lua/bo7_slot_machine_post.lua",
+      "sha256": "cc942901f27f6f82f495da5222372c2b6fc91957a679ec5cb7808cb3712ef290"
+    },
+    {
+      "path": "kronos/mods/custom_perks/lua/bo7_vitality_icon_post.lua",
+      "url": "baselines/kronos/mods/custom_perks/lua/bo7_vitality_icon_post.lua",
+      "sha256": "6795b6f907021035000e9bce31c08872375b4cdd223a62f22444f813d6ea98b4"
+    },
+    {
+      "path": "kronos/mods/custom_perks/lua/bo7_whos_who_prompt_post.lua",
+      "url": "baselines/kronos/mods/custom_perks/lua/bo7_whos_who_prompt_post.lua",
+      "sha256": "5685e944d3ead824f0c72fce7a002c37422ccf06204e0cf8bbdd1f8902167506"
+    },
+    {
+      "path": "kronos/mods/custom_perks/mod.json",
+      "url": "baselines/kronos/mods/custom_perks/mod.json",
+      "sha256": "d3388736ffe4591722166a4253f1c2335a1327278dc00337d51718c6c8aeccc7"
+    },
+    {
+      "path": "kronos/mods/custom_perks/README.txt",
+      "url": "baselines/kronos/mods/custom_perks/README.txt",
+      "sha256": "4194910ac28e91dc7617e1cbe13937c91e3ad75e42a7ea124cf8662d8ff0e1a6"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_axe.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_axe.gsc",
+      "sha256": "c6d203031b123764fe5af36472b2dd3ff9d1599b52bc73115913d52c62d7e505"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_banana_colada.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_banana_colada.gsc",
+      "sha256": "3bd2a8374af1b4a2039de32f24281915103e71c303540116b3a8eb8a43632e07"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_bandolier.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_bandolier.gsc",
+      "sha256": "23f8e8a62d8a3eeec525cacef95ceee0d230cbe97a4d552df284714dfdfb27ea"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_blaze_phase.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_blaze_phase.gsc",
+      "sha256": "47713be8cf756b85e6fa074245706b2afb1c6889e8ea4f272e00750d712fac7b"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_blood_wolf_bite.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_blood_wolf_bite.gsc",
+      "sha256": "80cb3c6c8326452f37d6c9e5f24a3d82f733187dedcf9a42ed3107f781f6de28"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_bull_ice_blast.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_bull_ice_blast.gsc",
+      "sha256": "7f0775525278a901b2dc976bca0f9f60a7b2a66dcbd59fc6ea99f908e13712bf"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_dam_a_nade.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_dam_a_nade.gsc",
+      "sha256": "639b21b56ae48b000b2efc4b69bc45f6ff84b66bb8feec7d310f5d60ff6e5adb"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_electric_cherry.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_electric_cherry.gsc",
+      "sha256": "6aac80525250eeffa6ddeecaf629cea513125f6b2da465626fb7f36e6459a901"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_gautys_gold.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_gautys_gold.gsc",
+      "sha256": "9b71be72a6270d2557fae57a4ec32f4b1227a3c58b724a0f38d8dd20e86bc238"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_hunters_mark.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_hunters_mark.gsc",
+      "sha256": "58b0cd4ea0e476a5d5ba35ba981dff0e82a9f1c499fad2981b0913d13c5a75b3"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_jug2.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_jug2.gsc",
+      "sha256": "6852a2be4dbc0bec3d46bae7606f9364a038fe19ce3c104bdb59ab3cd994e682"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_killstreak_kool_aid.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_killstreak_kool_aid.gsc",
+      "sha256": "9948603a1a702161aefd9467f59164a13d7f8597bf17a5a4ed1a33c5fb95eb75"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_magnet_margarita.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_magnet_margarita.gsc",
+      "sha256": "3a168ff927a33d89e3a0df504015e278e5363306a3e22242590e2465c28edfb6"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_nuka_cola.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_nuka_cola.gsc",
+      "sha256": "e0f7d0a9d0bf15b8dc8150e22f1bbb2f9f625955992cdc488e8dc1591f7b88bb"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_pack_a_box.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_pack_a_box.gsc",
+      "sha256": "0b9c6a401eb15597bc87a3070ba84b4460f4abcb8b4a031573b6b801ef397c03"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_samurais_sake.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_samurais_sake.gsc",
+      "sha256": "628409a92ca3aced127589a3c0b3530eead410a54f20d88ee8bcfe144d23b019"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_tortoise.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_tortoise.gsc",
+      "sha256": "d19859005e6235c6ef55ff64913081984d04727fc5bf668db555bd62af3b4631"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_twin_spirit.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_twin_spirit.gsc",
+      "sha256": "de9edf9a56cffb69afede6296a109919a80eb496d27945df22a9021cc321a1cb"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_vitality.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_vitality.gsc",
+      "sha256": "e97bb6927a7c85cb57bc1571c5515fb08f76406874dcadc55e0553fb36004a61"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/perk_whos_who.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/perk_whos_who.gsc",
+      "sha256": "ffce143581b04793267a7ac9d49698eb8139fe73b02b93249bb6bd050ff08a7d"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/zm_cp_custom_perks.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/zm_cp_custom_perks.gsc",
+      "sha256": "efa57e4ceb7b9669ce9974b6cffa0437fc3eab31782a9408e9550039c91a3bad"
+    },
+    {
+      "path": "kronos/mods/custom_perks/scripts/zm_cp_slot_machine.gsc",
+      "url": "baselines/kronos/mods/custom_perks/scripts/zm_cp_slot_machine.gsc",
+      "sha256": "46cdb7c6a402ee7284f6b059e0287506fa19fcce9c9ed3bee5e5af91e2480b2b"
+    },
+    {
+      "path": "MAKE_A_PERK.txt",
+      "url": "baselines/MAKE_A_PERK.txt",
+      "sha256": "a9df5d9182e7f9c8b8835006c3b684e2df1b1c1aa297ab91f4cce0a26fb7f42a"
+    },
+    {
+      "path": "perk_template.gsc.template",
+      "url": "baselines/perk_template.gsc.template",
+      "sha256": "60a8a909f5fa06b7158694d6fce823ac3290f3316e0a9b42eedd66dd0311d9be"
+    }
+  ]
+}

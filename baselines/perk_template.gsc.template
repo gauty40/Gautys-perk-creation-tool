@@ -1,0 +1,96 @@
+// @augment major Rapid Recovery | Doubles this perk's health regeneration.
+// @augment major High Jumper | Jump four times as high while this perk is active.
+// @augment minor Extra Recovery | Restores one additional health per tick.
+// Co-op: the manager sends every player's owned perks, HUD slot and machine prompt (HUD order follows "code"),
+// so this script only registers the perk and runs its effect. Every player must install the same perk pack.
+// Keep working values in player (self.) or level. fields, not locals: in this build some locals read back undefined.
+#using scripts\common\utility;
+#using scripts\mp\common\perks\zombie\zombie_perks;
+
+#namespace perk_template_perk;
+
+autoexec template_perk_init()
+{
+    level thread template_perk_register();
+}
+
+function template_perk_register()
+{
+    level endon(#"game_ended");
+    level utility::flag_wait_all("StartGameTypeCallbackFinished", "zombie_perks_init_complete");
+    if (!level.zombie_perks_in_use) return;
+    if (!isdefined(level.cp_register) || !isdefined(level.cp_register_native))
+    {
+        logstring("Template Perk: custom perk manager unavailable");
+        return;
+    }
+    def = [];
+    def["id"] = "template_perk";
+    def["code"] = 100;
+    def["name"] = "Template Perk";
+    def["creator"] = "Your Name";
+    def["description"] = "Restores one health every second while alive and out of last stand.";
+    def["icon_material"] = undefined;
+    def["price"] = 2500;
+    def["drink_from"] = "specialty_juggernog";
+    def["on_give"] = &give_template_perk;
+    def["on_take"] = &take_template_perk;
+    if (!level [[level.cp_register]](def))
+    {
+        logstring("Template Perk: registration rejected");
+        return;
+    }
+    level [[level.cp_register_native]]("template_perk", level.cp_defs["template_perk"]);
+}
+
+function give_template_perk()
+{
+    self notify("template_perk_stop");
+    self thread template_perk_effect();
+}
+
+function template_perk_effect()
+{
+    self endon(#"death_or_disconnect");
+    self endon("template_perk_stop");
+    level endon(#"game_ended");
+    while (self zombie_perks::has_perk("specialty_template_perk"))
+    {
+        wait 1;
+        if (!self zombie_perks::has_perk("specialty_template_perk")) return;
+        if (!isalive(self) || istrue(self.inlaststand)) continue;
+        if (!isdefined(self.health) || !isdefined(self.maxhealth)) continue;
+        // Augment picks: the manager writes these per player (0 = none picked yet).
+        // Major 2: persistent effect, applied once when its selection changes.
+        if ((self.cp_template_perk_major ?? 0) == 2 && !istrue(self.template_perk_jump_applied))
+        {
+            self setjumpheightscale(4);
+            self.template_perk_jump_applied = true;
+        }
+        else if ((self.cp_template_perk_major ?? 0) != 2 && istrue(self.template_perk_jump_applied))
+        {
+            self template_perk_reset_jump();
+        }
+        // Major 1 and minor 1 (either minor slot): gameplay effects calculated on each tick.
+        self.template_perk_heal = 1;
+        if ((self.cp_template_perk_major ?? 0) == 1) self.template_perk_heal = self.template_perk_heal * 2;
+        if ((self.cp_template_perk_minor ?? 0) == 1 || (self.cp_template_perk_bonus ?? 0) == 1) self.template_perk_heal = self.template_perk_heal + 1;
+        if (self.health < self.maxhealth)
+            self.health = minint(self.health + self.template_perk_heal, self.maxhealth);
+    }
+}
+
+function template_perk_reset_jump()
+{
+    if (!istrue(self.template_perk_jump_applied)) return;
+    self.template_perk_jump_scale = 1;
+    if (self zombie_perks::has_perk("specialty_jug2")) self.template_perk_jump_scale = 5;
+    self setjumpheightscale(self.template_perk_jump_scale);
+    self.template_perk_jump_applied = false;
+}
+
+function take_template_perk(b_pause, str_perk, str_result, n_slot)
+{
+    self template_perk_reset_jump();
+    self notify("template_perk_stop");
+}

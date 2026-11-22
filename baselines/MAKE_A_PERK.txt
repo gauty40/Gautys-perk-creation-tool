@@ -1,0 +1,45 @@
+MAKING A PERK
+
+Perks live in one Kronos mod: kronos/mods/custom_perks
+  scripts/  perk GSC files and the manager (zm_cp_custom_perks.gsc)
+  lua/      menu, HUD and saved-settings Lua
+  images/   PNG icons (flat folder, no subfolders)
+
+1. Start from perk_template.gsc.template (the web kit's "Create from template" does steps 2-4 for you).
+   Save it as perk_your_perk.gsc.
+2. Replace every template_perk with your lowercase ID, for example ember_brew. This updates the namespace,
+   functions, perk reference, ownership marker and augment fields together. No spaces or punctuation.
+3. Set def["code"] to an unused perk code from 1 to 249. The kit refuses codes already in use. Codes from 100 up
+   are free in the bundled set.
+4. Set the display name, description and price in def. Keep drink_from as specialty_juggernog unless you have
+   tested another drink animation.
+5. Optional icon: add a PNG (letters, numbers and underscores only) with the kit's "Add PNG images" and set
+   def["icon_material"] to its name without .png. It goes into the mod's images folder. Undefined uses the
+   placeholder icon. New images only load when the game starts.
+6. The example restores 1 HP each second. Major 1 doubles that; minor 1 adds 1. Major 2 instead sets jump-height
+   scale to 4. Replace the effect loop with your own behavior and update the descriptions.
+7. Augment menu entries come from the // @augment lines. Keep this syntax exactly. Each type is numbered from 1 in
+   declaration order; 0 means unselected or not yet synced. Support both the minor and bonus fields because a minor
+   may occupy either slot. Up to nine of each type; minors need at least one major.
+8. Read self.cp_YOUR_ID_major / _minor / _bonus on the player. Never use a level-wide pick or the host's Dvar for
+   gameplay. Keep reading the fields during the effect so a late co-op sync is picked up.
+9. Keep working values in self. or level. fields, not locals: in this BO7 build some locals read back undefined.
+10. Keep the give/take ownership markers and stop notifications. Undo any persistent health, speed or weapon
+   changes in take.
+11. Add the GSC in the kit, export the pack and install it (INSTALL.txt). Every co-op player needs the same pack.
+   Delete kronos/mods/custom_perks/scripts/compiled after changing scripts, then fully restart.
+12. Test with no augments, each augment separately, both minor slots, removal/reacquisition and different
+   host/guest picks. A generated pack proves the files fit together, not that the effect works in-game.
+
+GSC debugging: print() and iprintln() don't show in this build. Write a dvar with setdvar(@"name", value) and watch
+it from Lua, or use self iprintlnbold("...") for on-screen text.
+
+New perks automatically appear in the Custom Perks on/off menu, with a saved switch even without augments.
+
+AUTHOR CREDIT
+Set def["creator"] = "Your Name"; in your perk GSC. The Custom Perks panel shows "Created By: Your Name" above the
+selected perk. Use an empty string or omit the field to hide the credit.
+
+RESERVED VALUES (other mods share the perk_choice_purchase channel)
+Purchases 1701-1949 (1700 + code), HUD slots 9000-9003, Ring of Fire 21000-21999, slot machine close 23000,
+golden forge 24100, bank 24200. The kit picks augment sync ranges outside all of these.
